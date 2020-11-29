@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 6em;
+	font-weight: 500;
+	line-height: 80px;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 1.8;
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding: 120px 0;
+}
+
+.topmargin-xs {
+	margin-top: 10px;
+}
+
+.topmargin-sm {
+	margin-top: 30px;
+}
+
+.topmargin-lg {
+	margin-top: 60px;
+}
+
+.btn {
+	font-size: 14px;
+	padding: 15px 20px;
+	min-width: 160px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.btn-light {
+	background: #ffffff;
+	color: #000;
+	border: 2px solid #ffffff;
+}
+
+.btn i {
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.intro-2 {
+	background: url("http://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+	background: #fff;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	min-height: 100px;
+}
+
+html,
+body,
+.view {
+	height: 100%;
+}
+
+.btn-filled {
+	background: #745cf9;
+}
+
+.navbar-brand, .nav-link {
+	color: #000;
+}
+
+.navbar-brand, .nav-link:hover {
+	color: #000;
+}
+
+.navbar-toggler {
+	font-size: 40px;
+}
+
+.navbar-toggler:focus {
+	outline: none;
+}
+
+#hero {
+	background: url("http://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg")no-repeat center center;
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero p {
+	color: black;
+}
+
+.content-center {
+	margin: 0 auto 0 auto;
+	text-align: center;
+	max-width: 800px;
+}
+
+.portfolio-container {
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0;
+	border-radius: 2px;
+}
+
+.portfolio-container img {
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: 0.8s;
+}
+
+.portfolio-container:hover img {
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.portfolio-details {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	z-index: 1;
+}
+
+.portfolio-details a h2, .portfolio-details a p {
+	color: #ffffff;
+}
+
+.container .content-center p{
+	font-size: 2.5em;
+} 
+
+@media (min-width: 576px) {
+	h1 {
+		font-size: 40px;
+		line-height: normal;
+	}
+}
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
